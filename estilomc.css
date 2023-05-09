@@ -1,0 +1,155 @@
+.body {
+    background-color: rgb(249, 205, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'raleway', sem serifa;
+    color: blueviolet
+}
+
+.harder {
+    inline-size: auto;
+    position: fixed;
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    color: black;
+    background-color:rgb(168, 138, 196);
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__foto {
+    margin: 5%;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    border: 6px solid rgb(46, 14, 46);
+}    
+    
+.perfil__nome {
+    font-family: 'Satisfy', cursiva;
+    font-size: 54px;
+    font-weight: 400;
+    color: rgb(46, 14, 46);
+    margin: 16px, 0;
+}
+
+.perfil__descricao {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Satisfy', sem serifa;  
+} 
+
+.biografia {
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.biografia__titulo {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Satisfy',cursiva;
+    margin: 25px;
+    border-style: none;
+}
+
+.biografia__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px;
+    width: 50%;
+    font-family: 'Raleway', sem serifa;
+    text-indent: 20px;
+    text-align: left;
+}
+
+.section {
+    position: static;
+
+}
+
+.familia__foto {
+   float: right;
+   display: flex;
+   border-radius: 25px 25px;
+   width: 25%;
+   margin:0px 100px 150px 40px;
+   rotate: -10deg;
+}
+
+.familia__foto1 {
+    float: right;
+    display: flex;
+    border-radius: 25px 25px;
+    width: 25%;
+    margin: 0px 100px 150px 40px;
+    rotate: 10deg;  
+ }
+
+ .familia__foto2 {
+    float: right;
+    display: flex;
+    border-radius: 25px 25px;
+    width: 25%;
+    margin: 0px 100px 150px 40px;
+    rotate: -10deg;
+    position: relative;
+    left: 450px; 
+ }
+
+ .footer {
+    width: 100%;
+    height: 42px;
+    background-color:rgb(168, 138, 196);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer__texto {
+    font-family: 'lobster', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1.2);
+    }
+}
+
+.icone{
+    width: 24px;
+    border-radius: 50%;
+}
+
+.icone--texto {
+    margin: 8px 0;
+    animation: pulsar 1s infinite alternate;
+}
+
+
